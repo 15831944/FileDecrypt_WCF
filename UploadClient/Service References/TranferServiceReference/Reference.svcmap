@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d6a70557-8c45-4909-842a-50875441051f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:9876/TranferService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="569bd453-8c1a-4925-85d3-c771a386ebd0" SourceId="1" SourceUrl="net.tcp://localhost:9876/TranferService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="0e9660a8-1a12-4200-9a59-b103ff3307d7" SourceId="1" SourceUrl="net.tcp://localhost:9876/TranferService/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="36ae95cc-e3df-4dc6-8fe0-ec822b627be2" SourceId="1" SourceUrl="net.tcp://localhost:9876/TranferService/mex" />
+    <MetadataFile FileName="Message1.xsd" MetadataType="Schema" ID="c97132b0-73bb-44c4-bf64-f47d11d66adb" SourceId="1" SourceUrl="net.tcp://localhost:9876/TranferService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
